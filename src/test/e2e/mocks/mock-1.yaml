@@ -1,0 +1,12 @@
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-1-0
+spec:
+    metadata:
+        arg1: '"ITEM"'
+        command: HGETALL
+        name: redis
+        response: '[2,{"id":2,"name":"iPhoneX1","category":"Mobiles"},1,{"id":1,"name":"iPhoneX","category":"Mobiles"}]'
+        serializer: JDK_REDIS_SERIALIZATION
+        type: NoSqlDB
+    objects: []
