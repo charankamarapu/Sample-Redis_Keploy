@@ -38,8 +38,6 @@
 			<groupId>io.keploy</groupId>
 			<artifactId>keploy-sdk</artifactId>
 			<version>1.2.2</version>
-			<scope>system</scope>
-			<systemPath>/Users/charankamarapu/Java-SDK/java-sdk/keploy-sdk/target/keploy-sdk-0.0.1-SNAPSHOT.jar</systemPath>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
